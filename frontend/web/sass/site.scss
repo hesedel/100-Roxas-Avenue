@@ -153,6 +153,13 @@ body {
     }
 }
 
+.b-bg {
+    background-image: url(/img/vendor/slir/w1200-h300-c1200x300-q100/img/bg.jpg);
+    background-position: center;
+    background-size: 100%;
+    padding-bottom: 100% * (300 / 1200);
+}
+
 .b-body {
     @at-root .lt-ie9 & {
         @media (min-width: $screen-sm-min) {

@@ -256,7 +256,7 @@
 @mixin map($office: 'pccc', $scale: 1) {
 
     // center PCCC office
-    $center: '14.63635,121.03662';
+    $center: '7.0698,125.6143';
     @if ($office == 'igsl') {
         // center IGSL office
         $center: '14.6877,121.0334';

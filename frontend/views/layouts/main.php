@@ -8,6 +8,9 @@ use frontend\assets\AppAsset2;
 
 AppAsset::register($this);
 AppAsset2::register($this);
+if (YII_ENV_DEV) {
+    yii\debug\ToolbarAsset::register($this);
+}
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -100,7 +103,7 @@ AppAsset2::register($this);
                             'class' => 'b-header__logo',
                             'alt' => 'FamilyLife',
                         )
-                    ),
+                    ) . '100 Roxas Avenue',
                     array('/site/index'),
                     array('class' => 'b-header__a-logo')
                 ) ?>
@@ -108,6 +111,8 @@ AppAsset2::register($this);
             </h1>
         </div>
     </header>
+
+    <div class="b-bg"></div>
 
     <div class="b-body">
         <?= $content ?>
@@ -117,7 +122,7 @@ AppAsset2::register($this);
         <div class="container">
             <div class="b-footer__familylife"> <?= Html::a('FamilyLife', 'http://www.familylife.com/', array('class' => 'b-footer__a', 'rel' => 'nofollow')) ?></div>
             <div class="b-footer__pajaroncreative"> <?= Html::a('Pajaron Creative', 'http://pajaroncreative.com/', array('class' => 'b-footer__a')) ?></div>
-            <div class="b-footer__copyright">&copy; <?= date('Y') ?> FamilyLife Philippines</div>
+            <div class="b-footer__copyright">&copy; <?= date('Y') ?> Lotrim Construction</div>
         </div>
     </footer>
 

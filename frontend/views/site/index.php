@@ -5,7 +5,7 @@ use Yii;
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-$this->title = 'FamilyLife Philippines';
+$this->title = '100 Roxas Avenue';
 
 $this->registerMetaTag(['name' => 'description', 'content' => 'FamilyLife Philippines - ' . Yii::$app->params['description'] . '.']);
 ?>
