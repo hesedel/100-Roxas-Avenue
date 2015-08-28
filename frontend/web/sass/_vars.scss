@@ -67,11 +67,22 @@ $color: (
 );
 
 $color: map-merge($color, (
-    bg: map-get($color, white),
-    bg-footer: map-get($color, light-brown)
+    bg: map-get($color, light-brown)
 ));
 
 /* fonts */
+
+@font-face {
+    font-family: 'bellerose';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/bellerose-webfont.eot');
+    src: url('/fonts/bellerose-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/bellerose-webfont.woff2') format('woff2'),
+         url('/fonts/bellerose-webfont.woff') format('woff'),
+         url('/fonts/bellerose-webfont.ttf') format('truetype'),
+         url('/fonts/bellerose-webfont.svg#belleroselight') format('svg');
+}
 
 $font: (
     sans: (

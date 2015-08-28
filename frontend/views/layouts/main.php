@@ -94,25 +94,21 @@ if (YII_ENV_DEV) {
 
     <header class="b-header">
         <div class="container">
+            <div class="b-header__bg"></div>
+
             <h1 class="b-header__h1">
                 <?= Html::a(
-                    Html::img(
-                        '/img/vendor/slir/h54/img/logo.png',
-                        //'http://res.cloudinary.com/pajaroncreative/image/upload/c_fill,h_1080,w_1920/v1424604576/bg_nj7thv.png',
-                        array(
-                            'class' => 'b-header__logo',
-                            'alt' => 'FamilyLife',
-                        )
-                    ) . '100 Roxas Avenue',
+                    '100 Roxas Avenue',
                     array('/site/index'),
                     array('class' => 'b-header__a-logo')
                 ) ?>
-                <span class="b-header__country">Philippines</span>
             </h1>
+
+            <hr class="b-header__hr">
+
+            <h2 class="b-header__h2"><?= Yii::$app->params['description'] ?></h2>
         </div>
     </header>
-
-    <div class="b-bg"></div>
 
     <div class="b-body">
         <?= $content ?>
@@ -120,7 +116,6 @@ if (YII_ENV_DEV) {
 
     <footer class="b-footer">
         <div class="container">
-            <div class="b-footer__familylife"> <?= Html::a('FamilyLife', 'http://www.familylife.com/', array('class' => 'b-footer__a', 'rel' => 'nofollow')) ?></div>
             <div class="b-footer__pajaroncreative"> <?= Html::a('Pajaron Creative', 'http://pajaroncreative.com/', array('class' => 'b-footer__a')) ?></div>
             <div class="b-footer__copyright">&copy; <?= date('Y') ?> Lotrim Construction</div>
         </div>
@@ -151,7 +146,7 @@ if (YII_ENV_DEV) {
     // Typekit
     (function(d) {
     var config = {
-    kitId: 'jud2zwh',
+    kitId: 'voi1jxj',
     scriptTimeout: 3000
     },
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)

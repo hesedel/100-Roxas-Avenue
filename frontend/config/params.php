@@ -2,5 +2,5 @@
 return [
     'adminEmail' => 'hes@pajaroncreative.com',
 
-    'description' => 'Bringing timeless principles into the Filipino home',
+    'description' => 'An affordable luxury dormitory in the heart of Davao City',
 ];

@@ -10,62 +10,98 @@ $this->title = '100 Roxas Avenue';
 $this->registerMetaTag(['name' => 'description', 'content' => 'FamilyLife Philippines - ' . Yii::$app->params['description'] . '.']);
 ?>
 <main class="b-site_index">
-    <div class="b-site_index__section-group">
-        <section class="b-site_index__section b-description">
-            <h2 class="container b-description__h2"><?= Yii::$app->params['description'] ?></h2>
-        </section>
-
-        <section class="b-site_index__section b-randomImage">
-            <?php $images = glob('img/Site/index/b-randomImage/images/*.jpg') ?>
-            <?= Html::img(
-                '/img/vendor/slir/w780/' . $images[mt_rand(0, count($images) - 1)],
-                //'http://res.cloudinary.com/pajaroncreative/image/upload/c_fill,h_1080,w_1920/v1424604576/bg_nj7thv.png',
-                array(
-                    'class' => 'b-randomImage__img',
-                    'alt' => '',
-                )
-            ) ?>
-        </section>
-
-        <section class="b-site_index__section b-about">
-            <div class="container">
-                <p>GOD, who instituted marriage and the family, offers hope, harmony, health, happiness, to your marriage and family.</p>
-                <p>FamilyLife Philippines, a non-denominational, non-partisan, non-government organization, is committed to YOU and YOUR FAMILY!</p>
-            </div>
-        </section>
-    </div>
-
-    <section class="b-site_index__section b-site_index__section_isolated b-events">
+    <section class="b-site_index__section b-site_index__section_isolated b-location">
         <div class="container">
-            <h3 class="b-site_index__heading">Events</h3>
+            <h3 class="b-site_index__heading">Location</h3>
 
-            <div class="row">
-                <div class="col-sm-6 b-events__event">
-                    <?= Html::img(
-                        '/img/vendor/slir/w276/img/isd-logo.png',
-                        array(
-                            'class' => 'b-events__event-img',
-                            'alt' => 'I Still Do logo',
-                        )
-                    ) ?>
-                    <h4 class="b-events__event-title">I Still Do</h4>
-                    <p class="b-events__event-description">A one-day seminar that will bring the sparkle back to the vow you made on your wedding day.</p>
+            <ul class="nav nav-tabs b-location__tabs" role="tablist">
+                <li role="presentation" class="active"><?= Html::a(
+                    'Map',
+                    '#b-location-map',
+                    array(
+                        'aria-controls' => 'b-location-map',
+                        'role' => 'tab',
+                        'data-toggle' => 'tab',
+                    )
+                ) ?></li>
+                <?php /*
+                <li role="presentation"><?= Html::a(
+                    'Nearby',
+                    '#b-location-nearby',
+                    array(
+                        'aria-controls' => 'b-location-dearby',
+                        'role' => 'tab',
+                        'data-toggle' => 'tab',
+                    )
+                ) ?></li>
+                <li role="presentation"><?= Html::a(
+                    'Directions',
+                    '#b-location-directions',
+                    array(
+                        'aria-controls' => 'b-location-directions',
+                        'role' => 'tab',
+                        'data-toggle' => 'tab',
+                    )
+                ) ?></li>
+                */ ?>
+            </ul>
+
+            <div class="tab-content b-location__tab-content">
+                <div role="tabpanel" class="tab-pane active b-location__tab-pane" id="b-location-map">
+                    <ul class="list-group b-location__tab-pane-info">
+                        <li class="list-group-item"><i class="fa fa-map-marker b-location__tab-pane-info-icon"></i>100 Roxas Avenue, Davao City</li>
+                    </ul>
+
+                    <div class="b-map b-map--100roxasavenue">
+                        <div class="b-map__before"></div>
+
+                        <i class="fa fa-map-marker b-map__marker"></i>
+                    </div>
                 </div>
-                <div class="col-sm-6 b-events__event">
-                    <?= Html::img(
-                        '/img/vendor/slir/w276/img/taom-logo.png',
-                        array(
-                            'class' => 'b-events__event-img',
-                            'alt' => 'The Art of Marriage logo',
-                        )
-                    ) ?>
-                    <h4 class="b-events__event-title">The Art of Marriage</h4>
-                    <p class="b-events__event-description">A weekend event on video that weaves together expert teaching, stories and humor to portray the challenges and beauty of God’s design.</p>
-                    <?php /*
-                    <p>A live presentation of the video event by FamilyLife speakers who blend video content with live teaching and stories from their own marriages.</p>
-                    <p>A small-group study version with video where couples learn together and encourage one another to achieve God’s design for their marriages.</p>
-                    <p>A series of single-topic small-group studies that deliver biblically centered truth and practical application to make marriages healthy and strong.</p>
-                    */ ?>
+
+                <?php /*
+                <div role="tabpanel" class="tab-pane b-location__tab-pane" id="b-location-nearby">
+                    <h4 class="b-location__tab-pane-title">Nearby</h4>
+
+                    <p>...</p>
+                </div>
+
+                <div role="tabpanel" class="tab-pane b-location__tab-pane" id="b-location-directions">
+                    <h4 class="b-location__tab-pane-title">Directions</h4>
+
+                    <p>...</p>
+                </div>
+                */ ?>
+            </div>
+        </div>
+    </section>
+
+    <section class="b-site_index__section b-site_index__section_isolated b-facilities">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3 class="b-site_index__heading">Facilities</h3>
+
+                    <h4 class="b-facilities__subheading">Experience high-end dormitory living in an excellent location with first class facilities and amenities at affordable monthly rates</h4>
+
+                    <ul class="b-facilities__points">
+                        <li class="b-facilities__point"><span class="fa fa-sort b-facilities__point-icon"></span>Elevator service at all floor levels</li>
+                        <li class="b-facilities__point"><span class="fa fa-bed b-facilities__point-icon"></span>Spacious semi-furnished airconditioned rooms and bathrooms</li>
+                        <li class="b-facilities__point"><span class="fa fa-car b-facilities__point-icon"></span>Basement parking</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-sm-6">
+                    <ul class="b-facilities__points">
+                        <li class="b-facilities__point"><span class="fa fa-video-camera b-facilities__point-icon"></span>CCTV, cable ready and intercom connections</li>
+                        <li class="b-facilities__point"><span class="fa fa-shield b-facilities__point-icon"></span>24-hour round the clock security service personnel</li>
+                        <li class="b-facilities__point"><span class="fa fa-fire b-facilities__point-icon"></span>Built-in automatic fire protection and sprinkler systems</li>
+                        <li class="b-facilities__point"><span class="fa fa-bolt b-facilities__point-icon"></span>Stand-by generator set (ATS)</li>
+                        <li class="b-facilities__point"><span class="fa fa-tint b-facilities__point-icon"></span>Hot and cold water facility</li>
+                    </ul>
+
+                    <p class="b-facilities__footnote">For rent or lease high ceiling commercial spaces at the ground floor</p>
                 </div>
             </div>
         </div>
@@ -75,87 +111,47 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'FamilyLife Philip
         <div class="container">
             <h3 class="b-site_index__heading">Get in touch</h3>
 
+            <?php /*
             <div class="b-contact__facebook">
                 <?= Html::a(
-                    '<i class="fa fa-facebook-official b-contact__facebook-icon"></i>FamilyLife Philippines on Facebook',
-                    'https://www.facebook.com/pages/FamilyLife-Philippines/196795831514',
+                    '<i class="fa fa-facebook b-contact__facebook-icon"></i>100 Roxas Avenue on Facebook',
+                    '#',
                     array('class' => 'btn btn-default b-contact__facebook-a')
                 ) ?>
             </div>
+            */ ?>
 
-            <ul class="nav nav-tabs b-contact__tabs" role="tablist">
-                <li role="presentation" class="active"><?= Html::a(
-                    'Manila',
-                    '#b-contact-manila',
-                    array(
-                        'aria-controls' => 'b-contact-manila',
-                        'role' => 'tab',
-                        'data-toggle' => 'tab',
-                    )
-                ) ?></li>
-                <li role="presentation"><?= Html::a(
-                    'Manila 2',
-                    '#b-contact-manila-2',
-                    array(
-                        'aria-controls' => 'b-contact-manila-2',
-                        'role' => 'tab',
-                        'data-toggle' => 'tab',
-                    )
-                ) ?></li>
-                <li role="presentation"><?= Html::a(
-                    'Davao',
-                    '#b-contact-davao',
-                    array(
-                        'aria-controls' => 'b-contact-davao',
-                        'role' => 'tab',
-                        'data-toggle' => 'tab',
-                    )
-                ) ?></li>
-            </ul>
+            <p class="b-contact__phones">
+                <?= Html::a(
+                    '<i class="fa fa-phone b-contact__phone-icon"></i>(+63) (82) 297-1926',
+                    'tel:+63-82-297-1926',
+                    array('class' => 'b-contact__phone')
+                ) ?>
 
-            <div class="tab-content b-contact__tab-content">
-                <div role="tabpanel" class="tab-pane active" id="b-contact-manila">
-                    <h4 class="b-contact__tab-pane-title">FamilyLife Philippines in the Philippine Campus Crusade for Christ national office</h4>
+                <?= Html::a(
+                    '<i class="fa fa-phone b-contact__phone-icon"></i>(+63) (82) 299-2325',
+                    'tel:+63-82-299-2325',
+                    array('class' => 'b-contact__phone')
+                ) ?>
 
-                    <ul class="list-group b-contact__tab-pane-info">
-                        <li class="list-group-item"><?= Html::a(
-                            '<i class="fa fa-phone b-contact__tab-pane-info-icon"></i>(+63) (2) 412-5428',
-                            'tel:+63-2-412-5428'
-                        ) ?></li>
-                        <li class="list-group-item"><?= Html::a(
-                            '<i class="fa fa-phone b-contact__tab-pane-info-icon"></i>(+63) (2) 412-5429',
-                            'tel:+63-2-412-5428'
-                        ) ?></li>
-                        <li class="list-group-item"><i class="fa fa-map-marker b-contact__tab-pane-info-icon"></i>40 Sct. Borromeo South Triangle, Quezon City</li>
-                    </ul>
-                    <div class="b-map b-map--pccc">
-                        <div class="b-map__before"></div>
-                        <i class="fa fa-map-marker b-map__marker"></i>
-                    </div>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="b-contact-manila-2">
-                    <h4 class="b-contact__tab-pane-title">FamilyLife Philippines in the International Graduate School of Leadership</h4>
+                <?= Html::a(
+                    '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (910) 107-4086',
+                    'tel:+63-910-107-4086',
+                    array('class' => 'b-contact__phone')
+                ) ?>
 
-                    <ul class="list-group b-contact__tab-pane-info">
-                        <li class="list-group-item"><i class="fa fa-map-marker b-contact__tab-pane-info-icon"></i>12 Daisy Rd. Old Sauyo Novaliches Quezon City</li>
-                    </ul>
-                    <div class="b-map b-map--igsl">
-                        <div class="b-map__before"></div>
-                        <i class="fa fa-map-marker b-map__marker"></i>
-                    </div>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="b-contact-davao">
-                    <h4 class="b-contact__tab-pane-title">FamilyLife Philippines in the Philippine Campus Crusade for Christ Davao city office</h4>
+                <?= Html::a(
+                    '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (909) 651-2437',
+                    'tel:+63-909-651-2437',
+                    array('class' => 'b-contact__phone')
+                ) ?>
 
-                    <ul class="list-group b-contact__tab-pane-info">
-                        <li class="list-group-item"><i class="fa fa-map-marker b-contact__tab-pane-info-icon"></i>420 Champaca St. Juna Subd. Matina Davao City</li>
-                    </ul>
-                    <div class="b-map b-map--davao">
-                        <div class="b-map__before"></div>
-                        <i class="fa fa-map-marker b-map__marker"></i>
-                    </div>
-                </div>
-            </div>
+                <?= Html::a(
+                    '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (920) 928-0452',
+                    'tel:+63-920-928-0452',
+                    array('class' => 'b-contact__phone')
+                ) ?>
+            </p>
         </div>
     </section>
 </main>

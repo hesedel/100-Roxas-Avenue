@@ -28,243 +28,84 @@
             }
         }
     }
-
-    &__heading {
-        background-color: map-get($color, green);
-        @include border-radius($border-radius-small);
-        color: map-get($color, white);
-        display: inline-block;
-        padding: #{map-get($css, line-height) * .5} #{$grid-gutter-width * .5};
-    }
 }
 
-.b-description {
+.b-location {
     @at-root .lt-ie9 & {
         @media (min-width: $screen-xs-min) {
-            float: right;
-            margin-left: 50%;
-            padding-top: map-get($css, line-height) - 1px;
-        }
-
-        @media (min-width: $screen-sm-min) {
-            padding-left: $grid-gutter-width * .5;
-            padding-right: $grid-gutter-width * .5;
-        }
-
-        @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
-            @include border-top-right-radius($border-radius-large);
-            padding-top: map-get($css, line-height);
-        }
-    }
-
-    &__h2 {
-        @at-root .lt-ie9 & {
-            @media (min-width: $screen-xs-min) {
-                font-size: 1.5em;
-            }
-
-            @media (min-width: $screen-sm-min) {
-                font-size: 1.75em;
-                text-align: left;
-            }
-        }
-
-        &.container {
-            @at-root .lt-ie9 & {
-                @media (min-width: $screen-xs-min) {
-                    width: auto;
-                }
-            }
-        }
-    }
-}
-
-.b-randomImage {
-    @at-root .lt-ie9 & {
-        @media (min-width: $screen-xs-min) {
-            bottom: 0;
-            left: 0;
             overflow: hidden;
-            position: absolute;
-            right: 50%;
-            top: 0;
         }
     }
 
-    &__img {
+    .b-site_index__heading {
         @at-root .lt-ie9 & {
             @media (min-width: $screen-xs-min) {
-                height: 100%;
-                @include transform(translateX(-15%));
-                width: auto;
+                display: block;
+                float: left;
+                margin-bottom: 0;
+                margin-right: ($grid-gutter-width * .5) - 1px;
             }
-
-            @media (min-width: $screen-sm-min) {
-                @include transform(none);
-            }
-
-            @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
-                @include border-left-radius($border-radius-large);
-            }
-        }
-    }
-}
-
-.b-about {
-    @at-root .lt-ie9 & {
-        @media (min-width: $screen-xs-min) {
-            float: right;
-            margin-left: 50%;
-        }
-
-        @media (min-width: $screen-sm-min) {
-            padding-left: $grid-gutter-width * .5;
-            padding-right: $grid-gutter-width * .5;
-        }
-
-        @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
-            @include border-bottom-right-radius($border-radius-large);
-        }
-    }
-
-    .container {
-        @at-root .lt-ie9 & {
-            @media (min-width: $screen-xs-min) {
-                width: auto;
-            }
-        }
-    }
-}
-
-.b-events {
-    padding-bottom: map-get($css, line-height);
-
-    &__event {
-        @include clearfix;
-
-        @media (min-width: $screen-xs-min) {
-            float: left;
-            width: 50%;
-        }
-
-        &-img {
-            float: right;
-            width: 40%;
-            margin-bottom: map-get($css, line-height);
-            margin-left: $grid-gutter-width * .5;
-            max-width: 138px;
-        }
-
-        &-title {
-            margin-top: 0;
-        }
-
-        &-description {}
-    }
-}
-
-.b-contact {
-    @media (min-width: $screen-xs-min) {
-        overflow: hidden;
-    }
-
-    &__facebook {
-        text-align: center;
-
-        &-a {
-            text-align: left;
-        }
-
-        &-icon {
-            display: inline-block;
-            width: $grid-gutter-width * .75;
         }
     }
 
     &__tabs {
-        border-bottom-color: map-get($color, lighter-brown);
-        margin-left: -($grid-gutter-width * .5);
-        margin-right: -($grid-gutter-width * .5);
-        padding-left: $grid-gutter-width * .5;
-        padding-right: $grid-gutter-width * .5;
-
-        @media (min-width: $screen-xs-min) {
-            margin-left: -$grid-gutter-width;
-            margin-right: -$grid-gutter-width;
-            padding-left: $grid-gutter-width;
-            padding-right: $grid-gutter-width;
-        }
-
-        li {
-            a:hover {
-                background-color: map-get($color, light-brown);
-                border-bottom-color: map-get($color, lighter-brown);
-                border-left-color: map-get($color, light-brown);
-                border-right-color: map-get($color, light-brown);
-                border-top-color: map-get($color, light-brown);
-                color: map-get($color, brown);
+        &#{&} {
+            @at-root .lt-ie9 & {
+                @media (min-width: $screen-xs-min) {
+                    margin-left: -$grid-gutter-width;
+                    margin-right: -$grid-gutter-width;
+                    padding-left: $grid-gutter-width;
+                    padding-right: $grid-gutter-width;
+                }
             }
 
-            &.active {
-                a, a:hover, a:focus {
-                    background-color: map-get($color, lighter-brown);
-                    border-left-color: map-get($color, lighter-brown);
-                    border-right-color: map-get($color, lighter-brown);
-                    border-top-color: map-get($color, lighter-brown);
-                    color: map-get($color, brown);
+            li {
+                @at-root .lt-ie9 & {
+                    @media (min-width: $screen-xs-min) {
+                        float: left;
+                    }
+                }
+
+                a {
+                    &:hover {
+                        background-color: map-get($color, bg);
+                        border-bottom-color: map-get($color, lighter-brown);
+                        border-left-color: map-get($color, bg);
+                        border-right-color: map-get($color, bg);
+                        border-top-color: map-get($color, bg);
+                        color: map-get($color, brown);
+                    }
+                }
+
+                &.active {
+                    a:hover, a:focus {
+                        background-color: map-get($color, lighter-brown);
+                        border-left-color: map-get($color, lighter-brown);
+                        border-right-color: map-get($color, lighter-brown);
+                        border-top-color: map-get($color, lighter-brown);
+                        color: map-get($color, brown);
+                    }
                 }
             }
         }
     }
 
     &__tab-content {
-        background-color: map-get($color, lighter-brown);
-        margin-left: -($grid-gutter-width * .5);
-        margin-right: -($grid-gutter-width * .5);
-        overflow: hidden;
-        padding-left: $grid-gutter-width * .5;
-        padding-right: $grid-gutter-width * .5;
-        padding-top: map-get($css, line-height) * .5;
-
-        @media (min-width: $screen-xs-min) {
-            margin-left: -$grid-gutter-width;
-            margin-right: -$grid-gutter-width;
-            padding-left: $grid-gutter-width;
-            padding-right: $grid-gutter-width;
-        }
-    }
-
-    &__tab-pane {
-        &-title {
-            color: map-get($color, brown);
-            margin-bottom: 0;
-            text-align: center;
-        }
-
-        &-info {
-            display: inline-block;
-
-            &-icon {
-                color: map-get($color, green);
-                display: inline-block;
-                width: $grid-gutter-width * .75;
+        @at-root .lt-ie9 & {
+            @media (min-width: $screen-xs-min) {
+                margin-left: -$grid-gutter-width;
+                margin-right: -$grid-gutter-width;
+                padding-left: $grid-gutter-width;
+                padding-right: $grid-gutter-width;
             }
         }
     }
 }
 
-@mixin map($office: 'pccc', $scale: 1) {
+@mixin map($office: '100roxasavenue', $scale: 1) {
 
-    // center PCCC office
+    // center 100 Roxas Avenue
     $center: '7.0698,125.6143';
-    @if ($office == 'igsl') {
-        // center IGSL office
-        $center: '14.6877,121.0334';
-    }
-    @if ($office == 'davao') {
-        // center Davao office
-        $center: '7.05674,125.59451';
-    }
 
     background-image: url('http://maps.googleapis.com/maps/api/staticmap?' +
 
@@ -377,43 +218,27 @@
         right: 0;
     }
 
-    &--pccc {
-        @include map('pccc');
-    }
-
-    &--igsl {
-        @include map('igsl');
-    }
-
-    &--davao {
-        @include map('davao');
+    &--100roxasavenue {
+        @include map('100roxasavenue');
     }
 
     @at-root .backgroundsize & {
-        &--pccc {
-            @include map('pccc', 2);
-        }
-
-        &--igsl {
-            @include map('igsl', 2);
-        }
-
-        &--davao {
-            @include map('davao', 2);
+        &--100roxasavenue {
+            @include map('100roxasavenue', 2);
         }
     }
 
     &__before {
-        padding-top: 100% * (480 / 720);
-
-        @media (min-width: $screen-xs-min) {
-            padding-top: 100% * (360 / 720);
+        @at-root .lt-ie9 & {
+            @media (min-width: $screen-xs-min) {
+                padding-top: 100% * (360 / 720);
+            }
         }
     }
 
     &__marker {
         bottom: 50%;
-        color: map-get($color, green);
+        color: map-get(map-get($color, flatuicolorsDOTcom), alizarin);
         font-size: 3em;
         left: 50%;
         margin-left: -($grid-gutter-width * .5);
@@ -421,5 +246,113 @@
         text-align: center;
         @include text-shadow(0 0 1px white);
         width: $grid-gutter-width;
+    }
+}
+
+.b-facilities {
+    &__subheading {
+        color: map-get($color, brown);
+        font-weight: map-get(map-get(map-get($font, sans), weight), normal);
+
+        @media (min-width: $screen-xs-min) {
+            font-size: 1.25em;
+            line-height: map-get($css, line-height) * 1.5;
+        }
+    }
+
+    &__points {
+        list-style-type: none;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-left: 0;
+
+        @media (min-width: $screen-sm-min) {
+            margin-bottom: map-get($css, line-height);
+            margin-top: map-get($css, line-height);
+        }
+    }
+
+    &__point {
+        margin-top: map-get($css, line-height) * .5;
+        padding-bottom: map-get($css, line-height) * .5;
+        padding-left: $grid-gutter-width * 1.75;
+        padding-top: map-get($css, line-height) * .5;
+        position: relative;
+
+        @media (min-width: $screen-sm-min) {
+            padding-left: $grid-gutter-width * 2;
+        }
+
+        &-icon {
+            background-color: map-get($color, highlight);
+            @include border-radius(map-get($css, line-height));
+            color: map-get($color, brown);
+            height: map-get($css, line-height) * 2;
+            left: 0;
+            line-height: map-get($css, line-height) * 2;
+            position: absolute;
+            text-align: center;
+            top: 0;
+            width: map-get($css, line-height) * 2;
+        }
+    }
+
+    &__footnote {
+        color: map-get($color, brown);
+        font-size: .75em;
+    }
+}
+
+.b-contact {
+    background-color: transparent;
+
+    @media (min-width: $screen-xs-min) {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .b-site_index__heading {
+        display: none;
+    }
+
+    &__facebook {
+        position: relative;
+        text-align: center;
+
+        &-a {
+            text-align: left;
+        }
+
+        &-icon {
+            display: inline-block;
+            width: $grid-gutter-width * .75;
+        }
+    }
+
+    &__phones {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 75%;
+    }
+
+    &__phone {
+        background-color: map-get(map-get($color, flatuicolorsDOTcom), alizarin);
+        @include border-radius(map-get($css, line-height));
+        color: map-get($color, white);
+        display: inline-block;
+        margin-bottom: 2px;
+        margin-top: 2px;
+        padding: #{(map-get($css, line-height) * .5) - 2px} #{$grid-gutter-width * .5};
+
+        &:hover {
+            background-color: map-get($color, highlight);
+            color: map-get(map-get($color, flatuicolorsDOTcom), alizarin);
+            text-decoration: none;
+        }
+
+        &-icon {
+            margin-right: $grid-gutter-width * .5;
+        }
     }
 }

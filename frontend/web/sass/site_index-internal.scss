@@ -28,108 +28,116 @@
             }
         }
     }
+
+    &__heading {
+        background-color: map-get(map-get($color, flatuicolorsDOTcom), turquoise);
+        @include border-radius($border-radius-small);
+        color: map-get($color, white);
+        display: inline-block;
+        font-weight: map-get(map-get(map-get($font, sans), weight), lighter);
+        padding: #{map-get($css, line-height) * .5} #{$grid-gutter-width * .5};
+        text-transform: uppercase;
+    }
 }
 
-.b-description {
-    background-color: map-get($color, green);
-    padding-bottom: map-get($css, line-height);
-    padding-top: map-get($css, line-height);
-
-    @media (min-width: $screen-xs-min) {
-        float: right;
-        margin-left: 50%;
-        padding-top: map-get($css, line-height) - 1px;
-    }
+.b-location {
+    background-color: map-get($color, bg);
 
     @media (min-width: $screen-sm-min) {
-        padding-left: $grid-gutter-width * .5;
-        padding-right: $grid-gutter-width * .5;
+        overflow: hidden;
     }
 
-    @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
-        @include border-top-right-radius($border-radius-large);
-        padding-top: map-get($css, line-height);
-    }
-
-    &__h2 {
-        color: map-get($color, white);
-        font-size: 1.25em;
-        font-weight: map-get(map-get(map-get($font, sans), weight), lighter);
-        line-height: 1.25;
-        margin-bottom: 0;
-        margin-top: 0;
-        text-align: center;
+    .b-site_index__heading {
+        display: none;
 
         @media (min-width: $screen-xs-min) {
-            font-size: 1.5em;
+            display: block;
+            float: left;
+            margin-bottom: 0;
+            margin-right: ($grid-gutter-width * .5) - 1px;
         }
+    }
 
-        @media (min-width: $screen-sm-min) {
-            font-size: 1.75em;
-            text-align: left;
-        }
+    &__tabs {
+        &#{&} {
+            border-bottom-color: map-get($color, lighter-brown);
+            margin-left: -($grid-gutter-width * .5);
+            margin-right: -($grid-gutter-width * .5);
+            padding-left: $grid-gutter-width * .5;
+            padding-right: $grid-gutter-width * .5;
+            text-align: center;
 
-        &.container {
             @media (min-width: $screen-xs-min) {
-                width: auto;
+                margin-left: -$grid-gutter-width;
+                margin-right: -$grid-gutter-width;
+                padding-left: $grid-gutter-width;
+                padding-right: $grid-gutter-width;
+            }
+
+            li {
+                display: inline-block;
+                float: none;
+
+                @media (min-width: $screen-xs-min) {
+                    float: left;
+                }
+
+                a {
+                    color: map-get(map-get($color, flatuicolorsDOTcom), turquoise);
+                    margin-left: 1px;
+                    margin-right: 1px;
+                }
+
+                &.active {
+                    a {
+                        background-color: map-get($color, lighter-brown);
+                        border-left-color: map-get($color, lighter-brown);
+                        border-right-color: map-get($color, lighter-brown);
+                        border-top-color: map-get($color, lighter-brown);
+                        color: map-get($color, brown);
+                    }
+                }
+            }
+        }
+    }
+
+    &__tab-content {
+        background-color: map-get($color, lighter-brown);
+        margin-left: -($grid-gutter-width * .5);
+        margin-right: -($grid-gutter-width * .5);
+        padding-left: $grid-gutter-width * .5;
+        padding-right: $grid-gutter-width * .5;
+        padding-top: map-get($css, line-height) * .5;
+
+        @media (min-width: $screen-xs-min) {
+            margin-left: -$grid-gutter-width;
+            margin-right: -$grid-gutter-width;
+            padding-left: $grid-gutter-width;
+            padding-right: $grid-gutter-width;
+        }
+    }
+
+    &__tab-pane {
+        text-align: center;
+
+        &-info {
+            display: inline-block;
+
+            &-icon {
+                color: map-get(map-get($color, flatuicolorsDOTcom), alizarin);
+                display: inline-block;
+                width: $grid-gutter-width * .75;
             }
         }
     }
 }
 
-.b-randomImage {
-    @media (min-width: $screen-xs-min) {
-        bottom: 0;
-        left: 0;
-        overflow: hidden;
-        position: absolute;
-        right: 50%;
-        top: 0;
-    }
-
-    &__img {
-        display: block;
-        width: 100%;
+.b-map {
+    &__before {
+        padding-top: 100% * (480 / 720);
 
         @media (min-width: $screen-xs-min) {
-            height: 100%;
-            @include transform(translateX(-15%));
-            width: auto;
-        }
-
-        @media (min-width: $screen-sm-min) {
-            @include transform(none);
-        }
-
-        @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
-            @include border-left-radius($border-radius-large);
-        }
-    }
-}
-
-.b-about {
-    background-color: map-get($color, lighter-brown);
-    color: map-get($color, brown);
-    padding-bottom: map-get($css, line-height);
-    padding-top: map-get($css, line-height) * .5;
-
-    @media (min-width: $screen-xs-min) {
-        float: right;
-        margin-left: 50%;
-    }
-
-    @media (min-width: $screen-sm-min) {
-        padding-left: $grid-gutter-width * .5;
-        padding-right: $grid-gutter-width * .5;
-    }
-
-    @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
-        @include border-bottom-right-radius($border-radius-large);
-    }
-
-    .container {
-        @media (min-width: $screen-xs-min) {
-            width: auto;
+            padding-top: 100% * (360 / 720);
         }
     }
 }
