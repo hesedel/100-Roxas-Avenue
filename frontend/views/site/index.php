@@ -82,7 +82,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'FamilyLife Philip
                 <div class="col-sm-6">
                     <h3 class="b-site_index__heading">Facilities</h3>
 
-                    <h4 class="b-facilities__subheading">Experience high-end dormitory living in an excellent location with first class facilities and amenities at affordable monthly rates</h4>
+                    <h4 class="b-facilities__subheading">Experience an excellently located high-end dormitory, with first class facilities and amenities, at affordable monthly rates</h4>
 
                     <ul class="b-facilities__points">
                         <li class="b-facilities__point"><span class="fa fa-sort b-facilities__point-icon"></span>Elevator service at all floor levels</li>
