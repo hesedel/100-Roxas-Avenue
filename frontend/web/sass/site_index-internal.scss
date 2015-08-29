@@ -67,7 +67,7 @@
             padding-right: $grid-gutter-width * .5;
             text-align: center;
 
-            @media (min-width: $screen-xs-min) {
+            @media (min-width: $screen-sm-min) {
                 margin-left: -$grid-gutter-width;
                 margin-right: -$grid-gutter-width;
                 padding-left: $grid-gutter-width;
@@ -109,7 +109,7 @@
         padding-right: $grid-gutter-width * .5;
         padding-top: map-get($css, line-height) * .5;
 
-        @media (min-width: $screen-xs-min) {
+        @media (min-width: $screen-sm-min) {
             margin-left: -$grid-gutter-width;
             margin-right: -$grid-gutter-width;
             padding-left: $grid-gutter-width;
