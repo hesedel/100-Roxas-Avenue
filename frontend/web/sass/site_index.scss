@@ -105,7 +105,7 @@
 @mixin map($office: '100roxasavenue', $scale: 1) {
 
     // center 100 Roxas Avenue
-    $center: '7.0698,125.6143';
+    $center: '7.06905,125.61500';
 
     background-image: url('http://maps.googleapis.com/maps/api/staticmap?' +
 
@@ -249,6 +249,53 @@
         text-align: center;
         @include text-shadow(0 0 1px white);
         width: $grid-gutter-width;
+    }
+}
+
+.b-photos {
+    background-color: transparent;
+    overflow-x: auto;
+    padding-top: 0;
+
+    @media (min-width: $screen-sm-min) {
+        overflow: hidden;
+    }
+
+    &__scrollPane {
+        white-space: nowrap;
+
+        @media (min-width: $screen-sm-min) {
+            @include clearfix;
+        }
+    }
+
+    &__photo {
+        background-position: center;
+        @include background-size(101%);
+        display: inline-block;
+        margin-left: 1px;
+        vertical-align: top;
+        width: 75%;
+
+        @media (min-width: $screen-xs-min) {
+            width: 45%;
+        }
+
+        @media (min-width: $screen-sm-min) {
+            float: left;
+            margin-left: 0;
+            width: 25%;
+        }
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:before {
+            content: '';
+            display: block;
+            padding-bottom: 100%;
+        }
     }
 }
 
