@@ -41,7 +41,7 @@
 }
 
 .b-location {
-    background-color: map-get($color, bg);
+    background-color: map-get($color, light-brown);
 
     @media (min-width: $screen-sm-min) {
         overflow: hidden;

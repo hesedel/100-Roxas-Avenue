@@ -13,7 +13,7 @@
 @import 'vars';
 
 body {
-    background-color: map-get($color, bg) !important;
+    background-color: map-get($color, footer-bg) !important;
     cursor: default;
     font-family: map-get(map-get($font, sans), family) !important;
     line-height: map-get($css, line-height) !important;
@@ -49,6 +49,25 @@ ul {
     clear: both;
 }
 
+.b-Body {
+    padding-bottom: map-get($css, line-height) ;
+    position: relative;
+
+    @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
+        padding-bottom: map-get($css, line-height) * 2;
+    }
+
+    &__bg {
+        background-color: map-get($color, bg);
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+}
+
 .b-header {
     padding-bottom: map-get($css, line-height) * 1.5;
     padding-top: map-get($css, line-height) * 1.5;
@@ -65,7 +84,7 @@ ul {
     }
 
     &__bg {
-        background: map-get($color, brown);
+        background: map-get(map-get($color, flatuicolorsDOTcom), wetAsphalt);
         bottom: 0;
         left: 0;
         position: absolute;
@@ -73,7 +92,7 @@ ul {
         top: 0;
         z-index: -1;
 
-        @media (min-width: $screen-sm-min) {
+        @media (min-width: $screen-xs-min) {
             bottom: auto;
             padding-bottom: 100% * (1.5 / 4);
         }
@@ -128,7 +147,7 @@ ul {
     }
 
     &__h2 {
-        color: map-get($color, bg);
+        color: map-get($color, light-brown);
         font-size: 1em;
         font-weight: map-get(map-get(map-get($font, sans), weight), lighter);
         margin-bottom: 0;

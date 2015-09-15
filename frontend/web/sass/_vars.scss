@@ -67,7 +67,8 @@ $color: (
 );
 
 $color: map-merge($color, (
-    bg: map-get($color, light-brown)
+    bg: map-get(map-get($color, flatuicolorsDOTcom), midnightBlue),
+    footer-bg: blacken(map-get(map-get($color, flatuicolorsDOTcom), midnightBlue), 5%)
 ));
 
 /* fonts */

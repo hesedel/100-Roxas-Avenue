@@ -258,6 +258,7 @@
     padding-top: 0;
 
     @media (min-width: $screen-sm-min) {
+        background-color: map-get(map-get($color, flatuicolorsDOTcom), wetAsphalt);
         overflow: hidden;
     }
 
@@ -266,12 +267,12 @@
 
         @media (min-width: $screen-sm-min) {
             @include clearfix;
+            margin-right: -1px;
+            margin-top: -1px;
         }
     }
 
-    &__photo {
-        background-position: center;
-        @include background-size(101%);
+    &__photo-container {
         display: inline-block;
         margin-left: 1px;
         vertical-align: top;
@@ -284,11 +285,31 @@
         @media (min-width: $screen-sm-min) {
             float: left;
             margin-left: 0;
+            margin-top: 1px;
             width: 25%;
         }
 
         &:first-child {
             margin-left: 0;
+        }
+    }
+
+    &__photo {
+        background-color: map-get($color, lighter-brown);
+        background-position: center;
+        @include background-size(101%);
+        display: block;
+
+        @media (min-width: $screen-sm-min) {
+            background-color: map-get(map-get($color, flatuicolorsDOTcom), midnightBlue);
+            margin-right: 1px;
+            @include opacity(.5);
+        }
+
+        &:hover {
+            @media (min-width: $screen-sm-min) {
+                @include opacity(1);
+            }
         }
 
         &:before {

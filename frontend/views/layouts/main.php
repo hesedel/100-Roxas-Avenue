@@ -92,26 +92,30 @@ if (YII_ENV_DEV) {
     </div>
     <![endif]-->
 
-    <header class="b-header">
-        <div class="container">
-            <div class="b-header__bg"></div>
+    <div class="b-Body">
+        <div class="b-Body__bg"></div>
 
-            <h1 class="b-header__h1">
-                <?= Html::a(
-                    '100 Roxas Avenue',
-                    array('/site/index'),
-                    array('class' => 'b-header__a-logo')
-                ) ?>
-            </h1>
+        <header class="b-header">
+            <div class="container">
+                <div class="b-header__bg"></div>
 
-            <hr class="b-header__hr">
+                <h1 class="b-header__h1">
+                    <?= Html::a(
+                        '100 Roxas Avenue',
+                        array('/site/index'),
+                        array('class' => 'b-header__a-logo')
+                    ) ?>
+                </h1>
 
-            <h2 class="b-header__h2"><?= Yii::$app->params['description'] ?></h2>
+                <hr class="b-header__hr">
+
+                <h2 class="b-header__h2"><?= Yii::$app->params['description'] ?></h2>
+            </div>
+        </header>
+
+        <div class="b-body">
+            <?= $content ?>
         </div>
-    </header>
-
-    <div class="b-body">
-        <?= $content ?>
     </div>
 
     <footer class="b-footer">

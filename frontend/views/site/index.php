@@ -76,6 +76,56 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'FamilyLife Philip
         </div>
     </section>
 
+    <section class="b-site_index__section b-site_index__section_isolated b-photos">
+        <div class="b-photos__scrollPane"><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/facade-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/facade-1.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/entrance-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/entrance-1.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/entrance-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/entrance-2.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/reception-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/reception-1.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/cctv-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/cctv-1.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/elevator-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/elevator-1.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/elevator-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/elevator-2.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/elevator-3.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/elevator-3.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/hallway-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/hallway-1.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/room-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/room-1.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/room-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/room-2.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/room-3.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/room-3.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/room-4.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/room-4.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/room-5.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/room-5.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/parking-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/parking-1.jpg);"></a>
+            </div>
+        </div>
+    </section>
+
     <section class="b-site_index__section b-site_index__section_isolated b-facilities">
         <div class="container">
             <div class="row">

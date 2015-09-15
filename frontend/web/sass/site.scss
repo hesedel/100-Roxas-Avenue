@@ -130,6 +130,14 @@ body {
     }
 }
 
+.b-Body {
+    @at-root .lt-ie9 & {
+        @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
+            padding-bottom: map-get($css, line-height) * 2;
+        }
+    }
+}
+
 .b-header {
     @at-root .lt-ie9 & {
         @media (min-width: $screen-xs-min) {
