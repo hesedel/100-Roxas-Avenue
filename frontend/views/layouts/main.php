@@ -121,7 +121,7 @@ if (YII_ENV_DEV) {
     <footer class="b-footer">
         <div class="container">
             <div class="b-footer__pajaroncreative"> <?= Html::a('Pajaron Creative', 'http://pajaroncreative.com/', array('class' => 'b-footer__a')) ?></div>
-            <div class="b-footer__copyright">&copy; <?= date('Y') ?> Lotrim Construction</div>
+            <div class="b-footer__copyright">&copy; <?= date('Y') ?> LCI Corporation</div>
         </div>
     </footer>
 

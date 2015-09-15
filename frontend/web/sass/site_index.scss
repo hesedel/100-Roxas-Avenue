@@ -258,7 +258,6 @@
     padding-top: 0;
 
     @media (min-width: $screen-sm-min) {
-        background-color: map-get(map-get($color, flatuicolorsDOTcom), wetAsphalt);
         overflow: hidden;
     }
 
@@ -301,7 +300,7 @@
         display: block;
 
         @media (min-width: $screen-sm-min) {
-            background-color: map-get(map-get($color, flatuicolorsDOTcom), midnightBlue);
+            background-color: map-get(map-get($color, flatuicolorsDOTcom), wetAsphalt);
             margin-right: 1px;
             @include opacity(.5);
         }

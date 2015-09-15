@@ -262,7 +262,7 @@ body {
     &__a {
         background-color: map-get($color, brown);
         @include border-radius($border-radius-small);
-        color: map-get($color, white);
+        color: map-get($color, footer-bg);
         display: inline-block;
         padding: #{map-get($css, line-height) * .25} #{$grid-gutter-width * .5};
 
