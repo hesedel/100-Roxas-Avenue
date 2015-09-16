@@ -254,6 +254,7 @@
 
 .b-photos {
     background-color: transparent;
+    -webkit-overflow-scrolling: touch;
     overflow-x: auto;
     padding-top: 0;
 
