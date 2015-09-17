@@ -7,7 +7,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 $this->title = '100 Roxas Avenue';
 
-$this->registerMetaTag(['name' => 'description', 'content' => 'FamilyLife Philippines - ' . Yii::$app->params['description'] . '.']);
+$this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue - ' . Yii::$app->params['description'] . '.']);
 ?>
 <main class="b-site_index">
     <section class="b-site_index__section b-site_index__section_isolated b-location">
