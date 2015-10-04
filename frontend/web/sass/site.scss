@@ -267,7 +267,7 @@ body {
         padding: #{map-get($css, line-height) * .25} #{$grid-gutter-width * .5};
 
         &:hover {
-            color: map-get($color, white);
+            color: map-get($color, footer-bg);
             text-decoration: none;
         }
     }
