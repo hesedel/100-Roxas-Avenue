@@ -126,82 +126,84 @@ $this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue 
         </div>
     </section>
 
-    <section class="b-site_index__section b-site_index__section_isolated b-facilities">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h3 class="b-site_index__heading">Facilities</h3>
+    <sidebar class="b-site_index__sidebar">
+        <section class="b-site_index__section b-site_index__section_isolated b-facilities">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3 class="b-site_index__heading">Facilities</h3>
 
-                    <h4 class="b-facilities__subheading">Experience an excellently located high-end dormitory, with first class facilities and amenities, at affordable monthly rates</h4>
+                        <h4 class="b-facilities__subheading">Experience an excellently located high-end dormitory, with first class facilities and amenities, at affordable monthly rates</h4>
 
-                    <ul class="b-facilities__points">
-                        <li class="b-facilities__point"><span class="fa fa-sort b-facilities__point-icon"></span>Elevator service at all floor levels</li>
-                        <li class="b-facilities__point"><span class="fa fa-bed b-facilities__point-icon"></span>Spacious semi-furnished airconditioned rooms and bathrooms</li>
-                        <li class="b-facilities__point"><span class="fa fa-car b-facilities__point-icon"></span>Basement parking</li>
+                        <ul class="b-facilities__points">
+                            <li class="b-facilities__point"><span class="fa fa-sort b-facilities__point-icon"></span>Elevator service at all floor levels</li>
+                            <li class="b-facilities__point"><span class="fa fa-bed b-facilities__point-icon"></span>Spacious semi-furnished airconditioned rooms and bathrooms</li>
+                            <li class="b-facilities__point"><span class="fa fa-car b-facilities__point-icon"></span>Basement parking</li>
 
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
 
-                <div class="col-sm-6">
-                    <ul class="b-facilities__points">
-                        <li class="b-facilities__point"><span class="fa fa-video-camera b-facilities__point-icon"></span>CCTV, cable ready and intercom connections</li>
-                        <li class="b-facilities__point"><span class="fa fa-shield b-facilities__point-icon"></span>24-hour round the clock security service personnel</li>
-                        <li class="b-facilities__point"><span class="fa fa-fire b-facilities__point-icon"></span>Built-in automatic fire protection and sprinkler systems</li>
-                        <li class="b-facilities__point"><span class="fa fa-bolt b-facilities__point-icon"></span>Stand-by generator set (ATS)</li>
-                        <li class="b-facilities__point"><span class="fa fa-tint b-facilities__point-icon"></span>Hot and cold water facility</li>
-                    </ul>
+                    <div class="col-sm-6">
+                        <ul class="b-facilities__points">
+                            <li class="b-facilities__point"><span class="fa fa-video-camera b-facilities__point-icon"></span>CCTV, cable ready and intercom connections</li>
+                            <li class="b-facilities__point"><span class="fa fa-shield b-facilities__point-icon"></span>24-hour round the clock security service personnel</li>
+                            <li class="b-facilities__point"><span class="fa fa-fire b-facilities__point-icon"></span>Built-in automatic fire protection and sprinkler systems</li>
+                            <li class="b-facilities__point"><span class="fa fa-bolt b-facilities__point-icon"></span>Stand-by generator set (ATS)</li>
+                            <li class="b-facilities__point"><span class="fa fa-tint b-facilities__point-icon"></span>Hot and cold water facility</li>
+                        </ul>
 
-                    <p class="b-facilities__footnote">For rent or lease high ceiling commercial spaces at the ground floor</p>
+                        <p class="b-facilities__footnote">For rent or lease high ceiling commercial spaces at the ground floor</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="b-site_index__section b-site_index__section_isolated b-contact">
-        <div class="container">
-            <h3 class="b-site_index__heading">Get in touch</h3>
+        <section class="b-site_index__section b-site_index__section_isolated b-contact">
+            <div class="container">
+                <h3 class="b-site_index__heading">Get in touch</h3>
 
-            <?php /*
-            <div class="b-contact__facebook">
-                <?= Html::a(
-                    '<i class="fa fa-facebook b-contact__facebook-icon"></i>100 Roxas Avenue on Facebook',
-                    '#',
-                    array('class' => 'btn btn-default b-contact__facebook-a')
-                ) ?>
+                <?php /*
+                <div class="b-contact__facebook">
+                    <?= Html::a(
+                        '<i class="fa fa-facebook b-contact__facebook-icon"></i>100 Roxas Avenue on Facebook',
+                        '#',
+                        array('class' => 'btn btn-default b-contact__facebook-a')
+                    ) ?>
+                </div>
+                */ ?>
+
+                <p class="b-contact__phones">
+                    <?= Html::a(
+                        '<i class="fa fa-phone b-contact__phone-icon"></i>(+63) (82) 297-1926',
+                        'tel:+63-82-297-1926',
+                        array('class' => 'b-contact__phone')
+                    ) ?>
+
+                    <?= Html::a(
+                        '<i class="fa fa-phone b-contact__phone-icon"></i>(+63) (82) 299-2325',
+                        'tel:+63-82-299-2325',
+                        array('class' => 'b-contact__phone')
+                    ) ?>
+
+                    <?= Html::a(
+                        '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (910) 107-4086',
+                        'tel:+63-910-107-4086',
+                        array('class' => 'b-contact__phone')
+                    ) ?>
+
+                    <?= Html::a(
+                        '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (909) 651-2437',
+                        'tel:+63-909-651-2437',
+                        array('class' => 'b-contact__phone')
+                    ) ?>
+
+                    <?= Html::a(
+                        '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (920) 928-0452',
+                        'tel:+63-920-928-0452',
+                        array('class' => 'b-contact__phone')
+                    ) ?>
+                </p>
             </div>
-            */ ?>
-
-            <p class="b-contact__phones">
-                <?= Html::a(
-                    '<i class="fa fa-phone b-contact__phone-icon"></i>(+63) (82) 297-1926',
-                    'tel:+63-82-297-1926',
-                    array('class' => 'b-contact__phone')
-                ) ?>
-
-                <?= Html::a(
-                    '<i class="fa fa-phone b-contact__phone-icon"></i>(+63) (82) 299-2325',
-                    'tel:+63-82-299-2325',
-                    array('class' => 'b-contact__phone')
-                ) ?>
-
-                <?= Html::a(
-                    '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (910) 107-4086',
-                    'tel:+63-910-107-4086',
-                    array('class' => 'b-contact__phone')
-                ) ?>
-
-                <?= Html::a(
-                    '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (909) 651-2437',
-                    'tel:+63-909-651-2437',
-                    array('class' => 'b-contact__phone')
-                ) ?>
-
-                <?= Html::a(
-                    '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (920) 928-0452',
-                    'tel:+63-920-928-0452',
-                    array('class' => 'b-contact__phone')
-                ) ?>
-            </p>
-        </div>
-    </section>
+        </section>
+    </sidebar>
 </main>
