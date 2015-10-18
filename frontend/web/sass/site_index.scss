@@ -539,8 +539,10 @@ $sidebar-width: $container-lg - $container-sm - ($grid-gutter-width * 2);
             float: left;
             margin-bottom: 0;
             margin-top: 0;
-            padding-left: 0;
+            padding-left: $grid-gutter-width;
             padding-right: 0;
+            position: relative;
+            text-align: left;
             width: 50%;
         }
 
@@ -552,6 +554,12 @@ $sidebar-width: $container-lg - $container-sm - ($grid-gutter-width * 2);
 
         &-icon {
             margin-right: $grid-gutter-width * .5;
+
+            @media (min-width: $screen-lg-min) {
+                left: $grid-gutter-width * (3 / 7);
+                position: absolute;
+                top: map-get($css, line-height) * .5;
+            }
         }
     }
 }
