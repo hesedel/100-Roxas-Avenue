@@ -47,6 +47,10 @@
         overflow: hidden;
     }
 
+    @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
+        @include border-bottom-right-radius(0);
+    }
+
     .b-site_index__heading {
         display: none;
 
@@ -120,8 +124,33 @@
     &__tab-pane {
         text-align: center;
 
+        @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
+            position: relative;
+        }
+
         &-info {
             display: inline-block;
+
+            @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
+                bottom: 0;
+                &#{&} {
+                    margin-bottom: 0;
+                }
+                position: absolute;
+                right: -$grid-gutter-width;
+                z-index: 1;
+            }
+
+            .list-group-item {
+                @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
+                    background-color: map-get($color, bg);
+                    border-color: map-get($color, bg);
+                    &.list-group-item {
+                        @include border-radius(0);
+                    }
+                    color: map-get($color, white);
+                }
+            }
 
             &-icon {
                 color: map-get(map-get($color, flatuicolorsDOTcom), alizarin);
