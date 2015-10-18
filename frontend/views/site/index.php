@@ -79,49 +79,103 @@ $this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue 
     <section class="b-site_index__section b-site_index__section_isolated b-photos">
         <div class="js-photos__scrollPane js-photos__scrollPane b-photos__scrollPane"><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/facade-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/facade-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/facade-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/facade-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/entrance-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/entrance-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/entrance-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/entrance-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/entrance-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/entrance-2.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/entrance-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/entrance-2.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/reception-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/reception-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/reception-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/reception-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/cctv-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/cctv-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/cctv-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/cctv-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/elevator-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/elevator-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/elevator-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/elevator-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/elevator-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/elevator-2.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/elevator-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/elevator-2.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/elevator-3.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/elevator-3.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/elevator-3.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/elevator-3.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/hallway-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/hallway-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/hallway-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/hallway-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/room-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/room-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/hallway-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/hallway-2.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/room-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/room-2.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-2/1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-2/1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/room-3.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/room-3.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-2/2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-2/2.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/room-4.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/room-4.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-2/3.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-2/3.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/room-5.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/room-5.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-2/4.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-2/4.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/parking-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/parking-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-2/5.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-2/5.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-2/6.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-2/6.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-2/7.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-2/7.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-2/8.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-2/8.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-2/9.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-2/9.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/1.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/2.jpg);"></a>
+            </div><?php /*
+            * ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/3.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/3.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/4.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/4.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/5.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/5.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/6.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/6.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/7.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/7.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/8.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/8.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/9.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/9.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/10.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/10.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/11.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/11.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/12.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/12.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-1/13.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-1/13.jpg);"></a>
+            </div><?php /*
+            */ ?><div class="b-photos__photo-container">
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/parking-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/parking-1.jpg);"></a>
             </div>
         </div>
     </section>
