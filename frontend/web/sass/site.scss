@@ -179,7 +179,8 @@ body {
 
         &:before {
             background-image: url(/img/noise.png);
-            @include background-size(image-width('img/noise.png') * .25);
+            //@include background-size(image-width('img/noise.png') * .25);
+            @include background-size(5%);
             @include opacity(.5);
         }
 
