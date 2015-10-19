@@ -21,11 +21,8 @@ $sidebar-width: $container-lg - $container-sm - ($grid-gutter-width * 2);
             margin-left: -($sidebar-width * .5);
             margin-right: -($sidebar-width * .5);
             padding-right: $sidebar-width;
+            position: relative;
         }
-    }
-
-    @media (min-width: $screen-lg-min) {
-        position: relative;
     }
 
     &__section-group {
