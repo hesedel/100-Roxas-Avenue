@@ -82,31 +82,31 @@ $this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue 
                 <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/facade-1.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/facade-1.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s--23p83lf---/c_fill,h_360,q_jpegmini,w_360/v1445288759/100roxasavenue.com/photos/facade-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/entrance-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/entrance-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/entrance-1.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/entrance-1.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s--3Ag3_A1L--/c_fill,h_360,q_jpegmini,w_360/v1445289619/100roxasavenue.com/photos/entrance-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/entrance-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/entrance-2.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/entrance-2.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/entrance-2.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s--dsFSGC16--/c_fill,h_360,q_jpegmini,w_360/v1445289614/100roxasavenue.com/photos/entrance-2.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/reception-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/reception-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/reception-1.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/reception-1.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s--Bhy_DcMQ--/c_fill,h_360,q_jpegmini,w_360/v1445289818/100roxasavenue.com/photos/reception-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/cctv-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/cctv-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/cctv-1.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/cctv-1.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s---JAr1wn5--/c_fill,h_360,q_jpegmini,w_360/v1445289834/100roxasavenue.com/photos/cctv-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/elevator-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/elevator-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/elevator-1.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/elevator-1.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s--ur0oMr7I--/c_fill,h_360,q_jpegmini,w_360/v1445289916/100roxasavenue.com/photos/elevator-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/elevator-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/elevator-2.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/elevator-2.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/elevator-2.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s--vMZL5L9f--/c_fill,h_360,q_jpegmini,w_360/v1445289914/100roxasavenue.com/photos/elevator-2.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/elevator-3.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/elevator-3.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/elevator-3.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/elevator-3.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s--OY_h4D-H--/c_fill,h_360,q_jpegmini,w_360/v1445289912/100roxasavenue.com/photos/elevator-3.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/hallway-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/hallway-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/hallway-1.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/hallway-1.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s--0bj2MLLz--/c_fill,h_360,q_jpegmini,w_360/v1445290048/100roxasavenue.com/photos/hallway-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/hallway-2.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/hallway-2.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/hallway-2.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/hallway-2.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s--JPBwpCab--/c_fill,h_360,q_jpegmini,w_360/v1445290043/100roxasavenue.com/photos/hallway-2.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
                 <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/room-2/1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/room-2/1.jpg);"></a>
