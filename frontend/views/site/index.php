@@ -79,7 +79,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue 
     <section class="b-site_index__section b-site_index__section_isolated b-photos">
         <div class="js-photos__scrollPane js-photos__scrollPane b-photos__scrollPane"><?php /*
             */ ?><div class="b-photos__photo-container">
-                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/facade-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/facade-1.jpg);" style="background-image: url(http://res.cloudinary.com/pajaroncreative/image/upload/s--23p83lf---/c_fill,h_360,q_jpegmini,w_360/v1445288759/100roxasavenue.com/photos/facade-1.jpg);"></a>
+                <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/facade-1.jpg" style="background-image: url(<?php // /img/vendor/slir/w360-h360-c360x360/img/photos/facade-1.jpg ?>http://res.cloudinary.com/pajaroncreative/image/upload/s--23p83lf---/c_fill,h_360,q_jpegmini,w_360/v1445288759/100roxasavenue.com/photos/facade-1.jpg);"></a>
             </div><?php /*
             */ ?><div class="b-photos__photo-container">
                 <a class="js-photos__photo b-photos__photo" href="/img/vendor/slir/w1024-h1024/img/photos/entrance-1.jpg" style="background-image: url(/img/vendor/slir/w360-h360-c360x360/img/photos/entrance-1.jpg);"></a>
