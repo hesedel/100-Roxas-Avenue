@@ -179,13 +179,13 @@ body {
 
         &:before {
             background-image: url(/img/noise.png);
-            //@include background-size(image-width('img/noise.png') * .25);
             @include background-size(5%);
             @include opacity(.5);
         }
 
         &:after {
-            background-image: url(/img/vendor/slir/w1080/img/header-bg.jpg);
+            //background-image: url(/img/vendor/slir/w1080/img/header-bg.jpg);
+            background-image: url(http://res.cloudinary.com/pajaroncreative/image/upload/s--xIfcuOw5--/c_scale,q_jpegmini,w_1080/v1445287568/100roxasavenue.com/header-bg.jpg);
             @include background-size(100%);
             @include opacity(.25);
         }
