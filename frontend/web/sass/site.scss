@@ -159,6 +159,10 @@ body {
             }
         }
 
+        @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
+            border-bottom: 1px solid map-get(map-get($color, flatuicolorsDOTcom), turquoise);
+        }
+
         &:before,
         &:after {
             background-position: center;
@@ -175,7 +179,7 @@ body {
 
         &:before {
             background-image: url(/img/noise.png);
-            @include background-size(5%);
+            @include background-size(image-width('img/noise.png') * .25);
             @include opacity(.5);
         }
 
