@@ -171,11 +171,48 @@ $sidebar-width: $container-lg - $container-sm - ($grid-gutter-width * 2);
 }
 
 .b-map {
+    background-position: center;
+    background-repeat: no-repeat;
+    @include background-size(175%);
+    margin-left: -($grid-gutter-width * .5);
+    margin-right: -($grid-gutter-width * .5);
+    position: relative;
+
+    @media (min-width: $screen-xs-min) {
+        @include background-size(100%);
+    }
+
+    @media (min-width: $screen-sm-min) {
+        margin-left: -$grid-gutter-width;
+        margin-right: -$grid-gutter-width;
+    }
+
+    &:before {
+        background-image: linear-gradient(rgba(map-get($color, lighter-brown), 1), rgba(map-get($color, lighter-brown), 0));
+        content: '';
+        height: 25%;
+        left: 0;
+        position: absolute;
+        right: 0;
+    }
+
     &__before {
         padding-top: 125%;
 
         @media (min-width: $screen-xs-min) {
             padding-top: 75%;
         }
+    }
+
+    &__marker {
+        bottom: 50%;
+        color: map-get(map-get($color, flatuicolorsDOTcom), alizarin);
+        font-size: 3em;
+        left: 50%;
+        margin-left: -($grid-gutter-width * .5);
+        position: absolute;
+        text-align: center;
+        @include text-shadow(0 0 1px white);
+        width: $grid-gutter-width;
     }
 }
