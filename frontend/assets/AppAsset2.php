@@ -21,7 +21,7 @@ class AppAsset2 extends AssetBundle
     ];
     public $js = [
         'js/vendor/bootstrap/tab.js',
-        'js/vendor/jquery.magnific-popup.js',
+        'js/vendor/jquery.magnific-popup.min.js',
         'js/site.js',
     ];
     public $depends = [
