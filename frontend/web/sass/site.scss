@@ -157,37 +157,19 @@ body {
                 bottom: auto;
                 padding-bottom: 100% * (1.5 / 4);
             }
-        }
 
-        @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
-            border-bottom: 1px solid map-get(map-get($color, flatuicolorsDOTcom), turquoise);
+            @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
+                border-bottom: 1px solid map-get(map-get($color, flatuicolorsDOTcom), turquoise);
+            }
         }
 
         &:before,
         &:after {
-            background-position: center;
-            bottom: 0;
-            left: 0;
-            position: absolute;
-            right: 0;
-            top: 0;
-
-            @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
-                content: '';
+            @at-root .lt-ie9 & {
+                @media (min-width: $screen-sm-min + ($grid-gutter-width * 2)) {
+                    content: '';
+                }
             }
-        }
-
-        &:before {
-            background-image: url(/img/noise.png);
-            //@include background-size(image-width('img/noise.png') * .25);
-            @include background-size(5%);
-            @include opacity(.5);
-        }
-
-        &:after {
-            background-image: url(/img/vendor/slir/w1080/img/header-bg.jpg);
-            @include background-size(100%);
-            @include opacity(.25);
         }
     }
 

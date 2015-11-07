@@ -2,7 +2,16 @@
 @import 'compass';
 @import 'vars';
 
+$sidebar-width: $container-lg - $container-sm - ($grid-gutter-width * 2);
+
 .b-site_index {
+    @media (min-width: $screen-lg-min) {
+        margin-left: -($sidebar-width * .5);
+        margin-right: -($sidebar-width * .5);
+        padding-right: $sidebar-width;
+        position: relative;
+    }
+
     &__section-group {
         @media (min-width: $screen-xs-min) {
             @include clearfix;

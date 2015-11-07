@@ -3,7 +3,28 @@
 @import 'compass';
 @import 'vars';
 
+$sidebar-width: $container-lg - $container-sm - ($grid-gutter-width * 2);
+
+.Site_index {
+    .b-footer {
+        .container {
+            @media (min-width: $screen-lg-min) {
+                width: $container-lg;
+            }
+        }
+    }
+}
+
 .b-site_index {
+    @at-root .lt-ie9 & {
+        @media (min-width: $screen-lg-min) {
+            margin-left: -($sidebar-width * .5);
+            margin-right: -($sidebar-width * .5);
+            padding-right: $sidebar-width;
+            position: relative;
+        }
+    }
+
     &__section-group {
         @at-root .lt-ie9 & {
             @media (min-width: $screen-xs-min) {
@@ -26,6 +47,43 @@
                     margin-top: map-get($css, line-height);
                     padding-top: map-get($css, line-height);
                 }
+            }
+        }
+    }
+
+    &__sidebar {
+        @media (min-width: $screen-lg-min) {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: $sidebar-width - ($grid-gutter-width * .5);
+        }
+
+        .container {
+            @media (min-width: $screen-lg-min) {
+                padding-left: $grid-gutter-width;
+                padding-right: $grid-gutter-width;
+                width: auto;
+            }
+        }
+
+        .col-sm-6 {
+            @media (min-width: $screen-lg-min) {
+                float: none;
+                width: auto;
+            }
+
+            ul {
+                @media (min-width: $screen-lg-min) {
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+            }
+        }
+
+        .b-site_index__section_isolated:first-child {
+            @media (min-width: $screen-lg-min) {
+                margin-top: 0;
             }
         }
     }
@@ -261,6 +319,14 @@
         right: 0;
     }
 
+    &__before {
+        @at-root .lt-ie9 & {
+            @media (min-width: $screen-xs-min) {
+                padding-top: 100% * (360 / 720);
+            }
+        }
+    }
+
     &--100roxasavenue {
         @include map('100roxasavenue');
     }
@@ -268,14 +334,6 @@
     @at-root .backgroundsize & {
         &--100roxasavenue {
             @include map('100roxasavenue', 2);
-        }
-    }
-
-    &__before {
-        @at-root .lt-ie9 & {
-            @media (min-width: $screen-xs-min) {
-                padding-top: 100% * (360 / 720);
-            }
         }
     }
 
@@ -428,6 +486,10 @@
         position: relative;
     }
 
+    @media (min-width: $screen-lg-min) {
+        padding-top: 0;
+    }
+
     .b-site_index__heading {
         display: none;
     }
@@ -451,6 +513,13 @@
         margin-right: auto;
         text-align: center;
         width: 75%;
+
+        @media (min-width: $screen-lg-min) {
+            margin-left: -$grid-gutter-width;
+            margin-right: -$grid-gutter-width;
+            margin-top: 0;
+            width: auto;
+        }
     }
 
     &__phone {
@@ -462,6 +531,18 @@
         margin-top: 2px;
         padding: #{(map-get($css, line-height) * .5) - 2px} #{$grid-gutter-width * .5};
 
+        @media (min-width: $screen-lg-min) {
+            @include border-radius(0);
+            float: left;
+            margin-bottom: 0;
+            margin-top: 0;
+            padding-left: $grid-gutter-width;
+            padding-right: 0;
+            position: relative;
+            text-align: left;
+            width: 50%;
+        }
+
         &:hover {
             background-color: map-get($color, highlight);
             color: map-get(map-get($color, flatuicolorsDOTcom), alizarin);
@@ -470,6 +551,12 @@
 
         &-icon {
             margin-right: $grid-gutter-width * .5;
+
+            @media (min-width: $screen-lg-min) {
+                left: $grid-gutter-width * (3 / 7);
+                position: absolute;
+                top: map-get($css, line-height) * .5;
+            }
         }
     }
 }
