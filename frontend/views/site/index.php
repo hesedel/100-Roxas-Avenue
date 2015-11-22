@@ -216,149 +216,161 @@ $this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue 
             <div class="container">
                 <h3 class="b-site_index__heading">Dorm Rates</h3>
 
-                <h4 class="b-rates__subheading">Long term (6 months or more)</h4>
+                <div class="b-rates__items">
+                    <div class="b-rates__item b-rates__item--odd">
+                        <h4 class="b-rates__item-title">Long term (6 months or more)</h4>
 
-                <table>
-                    <tr>
-                        <th>
-                            Room for 1
-                        </th>
-                        <td>
-                            <ul>
-                                <li>Double bed</li>
-                                <li>P12,000 / month</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Room for 2
-                        </th>
-                        <td>
-                            <ul>
-                                <li>Twin bed</li>
-                                <li>P6,000 / month / head</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
+                        <table class="b-rates__item-table">
+                            <tr>
+                                <th>
+                                    Room for 1
+                                </th>
+                                <td>
+                                    <ul>
+                                        <li>Double bed</li>
+                                        <li>P12,000 / month</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Room for 2
+                                </th>
+                                <td>
+                                    <ul>
+                                        <li>Twin bed</li>
+                                        <li>P6,000 / month / head</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
 
-                <ul>
-                    <li>2 months' security deposit</li>
-                    <li>1-month advance</li>
-                    <li>Electricity and water not included</li>
-                    <li>No visitors allowed inside room after 9pm</li>
-                    <li>No cooking and laundry inside room</li>
-                    <li>Appliances, linens and toiletries not provided</li>
-                </ul>
+                        <ul>
+                            <li>2 months' security deposit</li>
+                            <li>1-month advance</li>
+                            <li>Electricity and water not included</li>
+                            <li>No visitors allowed inside room after 9pm</li>
+                            <li>No cooking and laundry inside room</li>
+                            <li>Appliances, linens and toiletries not provided</li>
+                        </ul>
+                    </div>
 
-                <h4 class="b-rates__subheading">Short term (2 to 5 months)</h4>
+                    <div class="b-rates__item b-rates__item--even">
+                        <h4 class="b-rates__item-title">Short term (2 to 5 months)</h4>
 
-                <table>
-                    <tr>
-                        <th>
-                            Room for 1
-                        </th>
-                        <td>
-                            <ul>
-                                <li>Double bed</li>
-                                <li>P13,000 / month</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Room for 2
-                        </th>
-                        <td>
-                            <ul>
-                                <li>Twin bed</li>
-                                <li>P6,500 / month / head</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
+                        <table class="b-rates__item-table">
+                            <tr>
+                                <th>
+                                    Room for 1
+                                </th>
+                                <td>
+                                    <ul>
+                                        <li>Double bed</li>
+                                        <li>P13,000 / month</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Room for 2
+                                </th>
+                                <td>
+                                    <ul>
+                                        <li>Twin bed</li>
+                                        <li>P6,500 / month / head</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
 
-                <ul>
-                    <li>1-month security deposit</li>
-                    <li>1-month advance</li>
-                    <li>Electricity and water not included</li>
-                    <li>No visitors allowed inside room after 9pm</li>
-                    <li>No cooking and laundry inside room</li>
-                    <li>Appliances, linens and toiletries not provided</li>
-                </ul>
+                        <ul>
+                            <li>1-month security deposit</li>
+                            <li>1-month advance</li>
+                            <li>Electricity and water not included</li>
+                            <li>No visitors allowed inside room after 9pm</li>
+                            <li>No cooking and laundry inside room</li>
+                            <li>Appliances, linens and toiletries not provided</li>
+                        </ul>
+                    </div>
 
-                <h4 class="b-rates__subheading">Short term (1 month)</h4>
+                    <hr class="b-rates__separators">
 
-                <table>
-                    <tr>
-                        <th>
-                            Room for 1
-                        </th>
-                        <td>
-                            <ul>
-                                <li>Double bed</li>
-                                <li>P14,000 / month</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Room for 2
-                        </th>
-                        <td>
-                            <ul>
-                                <li>Twin bed</li>
-                                <li>P7,000 / month / head</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
+                    <div class="b-rates__item b-rates__item--odd">
+                        <h4 class="b-rates__item-title">Short term (1 month)</h4>
 
-                <ul>
-                    <li>15 days' security deposit</li>
-                    <li>1-month advance</li>
-                    <li>Electricity and water not included</li>
-                    <li>No visitors allowed inside room after 9pm</li>
-                    <li>No cooking and laundry inside room</li>
-                    <li>Appliances, linens and toiletries not provided</li>
-                </ul>
+                        <table class="b-rates__item-table">
+                            <tr>
+                                <th>
+                                    Room for 1
+                                </th>
+                                <td>
+                                    <ul>
+                                        <li>Double bed</li>
+                                        <li>P14,000 / month</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Room for 2
+                                </th>
+                                <td>
+                                    <ul>
+                                        <li>Twin bed</li>
+                                        <li>P7,000 / month / head</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
 
-                <h4 class="b-rates__subheading">Daily rates</h4>
+                        <ul>
+                            <li>15 days' security deposit</li>
+                            <li>1-month advance</li>
+                            <li>Electricity and water not included</li>
+                            <li>No visitors allowed inside room after 9pm</li>
+                            <li>No cooking and laundry inside room</li>
+                            <li>Appliances, linens and toiletries not provided</li>
+                        </ul>
+                    </div>
 
-                <table>
-                    <tr>
-                        <th>
-                            Room for 1
-                        </th>
-                        <td>
-                            <ul>
-                                <li>Double bed</li>
-                                <li>P900 / room</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>
-                            Room for 2
-                        </th>
-                        <td>
-                            <ul>
-                                <li>Twin bed</li>
-                                <li>P950 / room</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
+                    <div class="b-rates__item b-rates__item--even">
+                        <h4 class="b-rates__item-title">Daily rates</h4>
 
-                <ul>
-                    <li>Full payment upon check-in</li>
-                    <li>Rooms are good for a <strong>maximum of 2 persons only</strong></li>
-                    <li>Linens, toiletries, and waste basket provided</li>
-                    <li>No visitors allowed inside room after 9pm</li>
-                    <li>No cooking and laundry inside room</li>
-                    <li>Appliances not provided</li>
-                </ul>
+                        <table class="b-rates__item-table">
+                            <tr>
+                                <th>
+                                    Room for 1
+                                </th>
+                                <td>
+                                    <ul>
+                                        <li>Double bed</li>
+                                        <li>P900 / room</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Room for 2
+                                </th>
+                                <td>
+                                    <ul>
+                                        <li>Twin bed</li>
+                                        <li>P950 / room</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <ul>
+                            <li>Full payment upon check-in</li>
+                            <li>Rooms are good for a <strong>maximum of 2 persons only</strong></li>
+                            <li>Linens, toiletries, and waste basket provided</li>
+                            <li>No visitors allowed inside room after 9pm</li>
+                            <li>No cooking and laundry inside room</li>
+                            <li>Appliances not provided</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 

@@ -478,6 +478,68 @@ $sidebar-width: $container-lg - $container-sm - ($grid-gutter-width * 2);
     }
 }
 
+.b-rates {
+    @media (min-width: $screen-sm-min) and (max-width: $screen-lg) {
+        padding-bottom: map-get($css, line-height);
+    }
+
+    &__items {
+        @media (min-width: $screen-sm-min) and (max-width: $screen-lg) {
+            @include clearfix;
+            position: relative;
+        }
+    }
+
+    &__item {
+        @media (min-width: $screen-sm-min) and (max-width: $screen-lg) {
+            float: left;
+            width: 50%;
+        }
+
+        &--odd {
+            @media (min-width: $screen-sm-min) and (max-width: $screen-lg) {
+                padding-right: $grid-gutter-width;
+            }
+        }
+
+        &--even {
+            @media (min-width: $screen-sm-min) and (max-width: $screen-lg) {
+                padding-left: $grid-gutter-width;
+            }
+        }
+
+        &-title {
+            color: map-get($color, brown);
+        }
+
+        &-table ul {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+
+    &__separators {
+        display: none;
+
+        @media (min-width: $screen-sm-min) and (max-width: $screen-lg) {
+            border-color: map-get($color, lighter-brown);
+            clear: left;
+            display: block;
+        }
+
+        &:before {
+            @media (min-width: $screen-sm-min) and (max-width: $screen-lg) {
+                border-left: 1px solid map-get($color, lighter-brown);
+                bottom: 0;
+                content: '';
+                left: 50%;
+                position: absolute;
+                top: 0;
+            }
+        }
+    }
+}
+
 .b-contact {
     background-color: transparent;
 
