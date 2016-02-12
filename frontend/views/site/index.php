@@ -218,7 +218,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue 
 
                 <div class="b-rates__items">
                     <div class="b-rates__item b-rates__item--odd">
-                        <h4 class="b-rates__item-title">Long term (6 months or more)</h4>
+                        <h4 class="b-rates__item-title">Long term (12 months or more)</h4>
 
                         <table class="b-rates__item-table">
                             <tr>
@@ -255,6 +255,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue 
                         </ul>
                     </div>
 
+                    <?php /*
                     <div class="b-rates__item b-rates__item--even">
                         <h4 class="b-rates__item-title">Short term (2 to 5 months)</h4>
 
@@ -370,6 +371,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue 
                             <li>Appliances not provided</li>
                         </ul>
                     </div>
+                    */ ?>
                 </div>
             </div>
         </section>
