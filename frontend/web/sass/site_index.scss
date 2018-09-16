@@ -289,7 +289,9 @@ $sidebar-width: $container-lg - $container-sm - ($grid-gutter-width * 2);
         '&style=feature:water|' +
 
         // water color
-        'color:' + color-hex(map-get(map-get($color, flatuicolorsDOTcom), turquoise))
+        'color:' + color-hex(map-get(map-get($color, flatuicolorsDOTcom), turquoise)) +
+        
+        '&key=AIzaSyDv0pltF9gN4mEc78tLPAracxjK9TPd0K4'
     );
 }
 
