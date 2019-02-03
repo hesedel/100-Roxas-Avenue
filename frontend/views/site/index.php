@@ -404,20 +404,20 @@ $this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue 
                     ) ?>
 
                     <?= Html::a(
-                        '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (910) 107-4086',
-                        'tel:+63-910-107-4086',
+                        '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (999) 884-4883',
+                        'tel:+63-999-884-4883',
                         array('class' => 'b-contact__phone')
                     ) ?>
 
                     <?= Html::a(
-                        '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (909) 651-2437',
-                        'tel:+63-909-651-2437',
+                        '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (917) 808-0005',
+                        'tel:+63-917-808-0005',
                         array('class' => 'b-contact__phone')
                     ) ?>
 
                     <?= Html::a(
-                        '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (920) 928-0452',
-                        'tel:+63-920-928-0452',
+                        '<i class="fa fa-mobile b-contact__phone-icon"></i>(+63) (933) 812-6535',
+                        'tel:+63-933-812-6535',
                         array('class' => 'b-contact__phone')
                     ) ?>
                 </p>
