@@ -76,10 +76,13 @@ $this->registerMetaTag(['name' => 'description', 'content' => '100 Roxas Avenue 
         </div>
     </section>
 
-    <section class="b-site_index__section b-site_index__section_isolated">
-        <p>Get checklist of requirements and templates for Dormitory Reservations, Lease and Parking Arrangements by clicking on the link below.</p>
-        <p><a href="https://drive.google.com/drive/folders/1hfnsFRnwxU3S8QSu605VgwFC3KbI3hTr?usp=sharing" rel="nofollow" target="_blank">https://drive.google.com/drive/folders/1hfnsFRnwxU3S8QSu605VgwFC3KbI3hTr?usp=sharing</a></p>
-        <p>Kindly coordinate all applications and direct queries to our Administration Office.  You may call (082) 299 2325 or 0933 812 6535.  You may also send an email to lcicorporation.0312@gmail.com.</p>
+    <section class="b-site_index__section b-site_index__section_isolated b-announcement">
+        <div class="container">
+            <h3 class="b-site_index__heading">Documents</h3>
+            <p>Get checklist of requirements and templates for Dormitory Reservations, Lease and Parking Arrangements by clicking on the link below.</p>
+            <p><a href="https://drive.google.com/drive/folders/1hfnsFRnwxU3S8QSu605VgwFC3KbI3hTr?usp=sharing" rel="nofollow" target="_blank">https://drive.google.com/drive/folders/1hfnsFRnwxU3S8QSu605VgwFC3KbI3hTr?usp=sharing</a></p>
+            <p>Kindly coordinate all applications and direct queries to our Administration Office. You may call (082) 299 2325 or 0933 812 6535.</p>
+        </div>
     </section>
 
     <section class="b-site_index__section b-site_index__section_isolated b-photos">
